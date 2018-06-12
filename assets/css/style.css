@@ -345,7 +345,7 @@ body{
 
 
 /*wideScreen*/
-@media (width: 1920px) {
+@media only screen and (device-width: 1920px) {
 
     #bodyImgContainer{
         height: 1020px;
@@ -362,7 +362,7 @@ body{
 
 
 /*ipad*/
-@media (width: 1024px) {
+@media only screen and (device-width: 1024px) {
 
     #bodyImgContainer{
         height: 708px;
@@ -382,11 +382,18 @@ body{
 
 
 /*galaxy Note 5*/
-@media (width: 700px) {
+@media only screen and (device-width: 700px) {
 
     #bodyImgContainer{
         height: 340px;
     }
+
+/*    #input1,
+    #input2{
+        width: 8px;
+        height: 3px;
+        border: 5px solid green;
+    }*/
 
     #q1,
     #q2{
@@ -399,7 +406,7 @@ body{
 
 
 /*galaxy s5*/
-@media (width: 640px) {
+@media only screen and (device-width: 640px) {
 
     #bodyImgContainer{
         height: 300px;
@@ -408,7 +415,7 @@ body{
     #q1,
     #q2{
         bottom: 74%;
-        font-size: 10px;
+        font-size: 5px;
     }
 
 }
@@ -416,7 +423,7 @@ body{
 
 
 /*iphone 4*/
-@media (width: 480px) {
+@media only screen and (device-width: 480px) {
 
     #bodyImgContainer{
         height: 260px;
@@ -435,7 +442,7 @@ body{
 
     #q1,
     #q2{
-        font-size: 9px;
+        font-size: 5px;
         bottom: 73%;
     }
     
