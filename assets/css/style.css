@@ -388,17 +388,16 @@ body{
         height: 340px;
     }
 
-/*    #input1,
+    /*#input1,
     #input2{
-        width: 8px;
-        height: 3px;
-        border: 5px solid green;
+        width: 80px;
+        height: 20px;
     }*/
 
     #q1,
     #q2{
         bottom:72%;
-        font-size: 10px;
+        font-size: 5px;
     }
 
 }
