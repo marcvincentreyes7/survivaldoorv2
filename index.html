@@ -214,8 +214,9 @@
 					$("#videoDoor2").hide();
 					$("#gameOver2").show();
 					$("#gameOver2")[0].load();
-					$("#gameOver2")[0].autoplay=true;
-					$("#gameOver2")[0].play();
+					//$("#gameOver2")[0].autoplay=true;
+					//$("#gameOver2")[0].play();
+					document.getElementById("gameOver2").setAttribute('autoplay', true);
 					}
 				setTimeout(delayMe, 3000);
 			}); //end of door2
