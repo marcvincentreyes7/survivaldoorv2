@@ -88,7 +88,7 @@
 
 	 	<div class="gameOver2">
 	 		<video id="gameOver2">
-	 			<source src="assets/videos/gameOverLow.webm" type="video/webm">
+	 			<source src="assets/videos/gameOverLow.mp4" type="video/mp4">
 	 		</video>
 	 	</div>
 
@@ -214,9 +214,9 @@
 					$("#videoDoor2").hide();
 					$("#gameOver2").show();
 					$("#gameOver2")[0].load();
-					//$("#gameOver2")[0].autoplay=true;
-					//$("#gameOver2")[0].play();
-					document.getElementById("gameOver2").setAttribute('autoplay', true);
+					$("#gameOver2")[0].autoplay=true;
+					$("#gameOver2")[0].play();
+					$("#gameOver2")[0].play();
 					}
 				setTimeout(delayMe, 3000);
 			}); //end of door2
