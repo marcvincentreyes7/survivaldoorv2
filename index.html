@@ -213,6 +213,7 @@
 				function delayMe(){
 					$("#videoDoor2").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 					}
 				setTimeout(delayMe, 3000);
