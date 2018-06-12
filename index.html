@@ -182,12 +182,12 @@
 				$("#videoDoor1")[0].play();
 				$("#bodyImg").hide();
 				$("footer").hide();
-				$("#bodyImg").attr("src", "assets/images/door2.jpg");
-				$("#bodyImg").show();
 
 				function delayMe(){
 					$("footer").show();
 					$("#videoDoor1").hide();
+					$("#bodyImg").attr("src", "assets/images/door2.jpg");
+					$("#bodyImg").show();
 
 					$("#q1").show();
 					$(".invisibleDoor2").show();
@@ -208,14 +208,13 @@
 				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q1").hide();
+				$("#videoDoor2")[0].load();
 				$("#videoDoor2")[0].play();
 
 				function delayMe(){
 					$("#videoDoor2").hide();
 					$("#gameOver2").show();
 					$("#gameOver2")[0].load();
-					$("#gameOver2")[0].autoplay=true;
-					$("#gameOver2")[0].play();
 					$("#gameOver2")[0].play();
 					}
 				setTimeout(delayMe, 3000);
@@ -230,11 +229,13 @@
 				$("footer").hide();
 				$("#q1").hide();
 				$("#videoDoor3").show();
+				$("#videoDoor3")[0].load();
 				$("#videoDoor3")[0].play();
 
 				function delayMe(){
 					$("#videoDoor3").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 					}
 				setTimeout(delayMe, 6800);
@@ -246,16 +247,17 @@
 				$(".invisibleDoor3").hide();
 				$(".invisibleDoor3-1").hide();
 				$("#videoDoor3").show();
+				$("#videoDoor3")[0].load();
 				$("#videoDoor3")[0].play();
 				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q1").hide();
-				$("#bodyImg").attr("src", "assets/images/door3.jpg");
-				$("#bodyImg").show();
 
 				function delayMe(){
 					$("footer").show();
 					$("#videoDoor3").hide();
+					$("#bodyImg").attr("src", "assets/images/door3.jpg");
+					$("#bodyImg").show();
 
 					$("#q2").show();
 					$(".invisibleDoor4").show();
@@ -278,11 +280,13 @@
 				$("footer").hide();
 				$("#q2").hide();
 				$("#videoDoor4").show();
+				$("#videoDoor4")[0].load();
 				$("#videoDoor4")[0].play();
 
 				function delayMe(){
 					$("#videoDoor4").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 				}
 				setTimeout(delayMe, 6800);
@@ -299,11 +303,13 @@
 				$("footer").hide();
 				$("#q2").hide();
 				$("#videoDoor5").show();
+				$("#videoDoor5")[0].load();
 				$("#videoDoor5")[0].play();
 
 				function delayMe(){
 					$("#videoDoor5").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 				}
 				setTimeout(delayMe, 6800);
@@ -317,18 +323,20 @@
 				$(".invisibleDoor5-1").hide();
 				$(".invisibleDoor6").hide();
 				$("#videoDoor5").show();
+				$("#videoDoor5")[0].load();
 				$("#videoDoor5")[0].play();
 				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q2").hide();
-				$("#bodyImg").attr("src", "assets/images/wideNarrow.jpg");
-				$("#bodyImg").show();
 
 				function delayMe(){
 					$("footer").show();
 					$("#videoDoor5").hide();
+					$("#bodyImg").attr("src", "assets/images/wideNarrow.jpg");
+					$("#bodyImg").show();
 					$(".invisibleDoor7").show();
 					$(".invisibleDoor8").show();
+
 				}
 				setTimeout(delayMe, 6900);
 			}); //end of door 5-1
@@ -344,11 +352,13 @@
 				$("footer").hide();
 				$("#q2").hide();
 				$("#videoDoor6").show();
+				$("#videoDoor6")[0].load();
 				$("#videoDoor6")[0].play();
 
 				function delayMe(){
 					$("#videoDoor6").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 				}
 				setTimeout(delayMe, 6800);
@@ -359,6 +369,7 @@
 				$(".invisibleDoor7").hide();
 				$(".invisibleDoor8").hide();
 				$("#videoDoor7").show();
+				$("#videoDoor7")[0].load();
 				$("#videoDoor7")[0].play();
 				$("#bodyImg").hide();
 				$("footer").hide();
@@ -366,6 +377,7 @@
 				function delayMe(){
 					$("#videoDoor6").hide();
 					$("#gameOver2").show();
+					$("#gameOver2")[0].load();
 					$("#gameOver2")[0].play();
 				}
 				setTimeout(delayMe, 6000);
@@ -376,15 +388,17 @@
 				$(".invisibleDoor7").hide();
 				$(".invisibleDoor8").hide();
 				$("#videoDoor8").show();
+				$("#videoDoor8")[0].load();
 				$("#videoDoor8")[0].play();
 				$("#bodyImg").hide();
 				$("footer").hide();
-				$("#bodyImg").attr("src", "assets/images/congrats.gif");
-				$("#bodyImg").show();
 
 				function delayMe(){
 					$("#videoDoor8").hide()
+					$("#bodyImg").attr("src", "assets/images/congrats.gif");
+					$("#bodyImg").show();
 					$("#tadah").show();
+					$("#tadah")[0].load();
 					$("#tadah")[0].play();
 				}
 				setTimeout(delayMe, 6300);
