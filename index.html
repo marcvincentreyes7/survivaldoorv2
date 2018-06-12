@@ -177,11 +177,12 @@
 		<script type="text/javascript">
 			//clicking frontPage door
 			$(".invisibleDoor1").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor1").hide();
+				$("footer").hide();
 				$("#videoDoor1").show();
 				$("#videoDoor1")[0].play();
-				$("#bodyImg").hide();
-				$("footer").hide();
+				
 
 				function delayMe(){
 					$("footer").show();
@@ -201,13 +202,13 @@
 			//page2
 			//clicking door 2 - gameOver
 			$(".invisibleDoor2").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor2").hide();
 				$(".invisibleDoor3").hide();
 				$(".invisibleDoor3-1").hide();
-				$("#videoDoor2").show();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q1").hide();
+				$("#videoDoor2").show();
 				$("#videoDoor2")[0].load();
 				$("#videoDoor2")[0].play();
 
@@ -222,10 +223,10 @@
 
 			//clicking door 3 - gameOver
 			$(".invisibleDoor3").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor2").hide();
 				$(".invisibleDoor3").hide();
 				$(".invisibleDoor3-1").hide();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q1").hide();
 				$("#videoDoor3").show();
@@ -243,15 +244,15 @@
 
 			//clicking door 3-1 - safe Door
 			$(".invisibleDoor3-1").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor2").hide();
 				$(".invisibleDoor3").hide();
 				$(".invisibleDoor3-1").hide();
 				$("#videoDoor3").show();
-				$("#videoDoor3")[0].load();
-				$("#videoDoor3")[0].play();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q1").hide();
+				$("#videoDoor3")[0].load();
+				$("#videoDoor3")[0].play();
 
 				function delayMe(){
 					$("footer").show();
@@ -272,11 +273,11 @@
 			//page 3
 			//clicking door 4 - GameOver
 			$(".invisibleDoor4").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor4").hide();
 				$(".invisibleDoor5").hide();
 				$(".invisibleDoor5-1").hide();
 				$(".invisibleDoor6").hide();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q2").hide();
 				$("#videoDoor4").show();
@@ -295,11 +296,11 @@
 
 			//clicking door 5 - GameOver
 			$(".invisibleDoor5").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor4").hide();
 				$(".invisibleDoor5").hide();
 				$(".invisibleDoor5-1").hide();
 				$(".invisibleDoor6").hide();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q2").hide();
 				$("#videoDoor5").show();
@@ -318,20 +319,20 @@
 
 			//clicking door 5-1 - Safe Door
 			$(".invisibleDoor5-1").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor4").hide();
 				$(".invisibleDoor5").hide();
 				$(".invisibleDoor5-1").hide();
 				$(".invisibleDoor6").hide();
 				$("#videoDoor5").show();
-				$("#videoDoor5")[0].load();
-				$("#videoDoor5")[0].play();
-				$("#bodyImg").hide();
 				$("footer").hide();
 				$("#q2").hide();
+				$("#videoDoor5")[0].load();
+				$("#videoDoor5")[0].play();
 
 				function delayMe(){
-					$("footer").show();
 					$("#videoDoor5").hide();
+					$("footer").show();
 					$("#bodyImg").attr("src", "assets/images/wideNarrow.jpg");
 					$("#bodyImg").show();
 					$(".invisibleDoor7").show();
@@ -343,17 +344,17 @@
 
 
 			//clicking door 6 - GameOver
-			$(".invisibleDoor6").click(function(){
-				$(".invisibleDoor4").hide();
-				$(".invisibleDoor5").hide();
-				$(".invisibleDoor5-1").hide();
-				$(".invisibleDoor6").hide();
-				$("#bodyImg").hide();
-				$("footer").hide();
-				$("#q2").hide();
-				$("#videoDoor6").show();
-				$("#videoDoor6")[0].load();
-				$("#videoDoor6")[0].play();
+				$(".invisibleDoor6").click(function(){
+					$("#bodyImg").attr("src", "assets/images/black.png");
+					$(".invisibleDoor4").hide();
+					$(".invisibleDoor5").hide();
+					$(".invisibleDoor5-1").hide();
+					$(".invisibleDoor6").hide();
+					$("footer").hide();
+					$("#q2").hide();
+					$("#videoDoor6").show();
+					$("#videoDoor6")[0].load();
+					$("#videoDoor6")[0].play();
 
 				function delayMe(){
 					$("#videoDoor6").hide();
@@ -365,14 +366,14 @@
 			}); //end of door 6
 
 			//clicking door 7 - GameOver
-			$(".invisibleDoor7").click(function(){
-				$(".invisibleDoor7").hide();
-				$(".invisibleDoor8").hide();
-				$("#videoDoor7").show();
-				$("#videoDoor7")[0].load();
-				$("#videoDoor7")[0].play();
-				$("#bodyImg").hide();
-				$("footer").hide();
+				$(".invisibleDoor7").click(function(){
+					$("#bodyImg").attr("src", "assets/images/black.png");
+					$(".invisibleDoor7").hide();
+					$(".invisibleDoor8").hide();
+					$("#videoDoor7").show();
+					$("footer").hide();
+					$("#videoDoor7")[0].load();
+					$("#videoDoor7")[0].play();
 
 				function delayMe(){
 					$("#videoDoor6").hide();
@@ -385,13 +386,13 @@
 
 			//clicking door 8 - safeDoor
 			$(".invisibleDoor8").click(function(){
+				$("#bodyImg").attr("src", "assets/images/black.png");
 				$(".invisibleDoor7").hide();
 				$(".invisibleDoor8").hide();
 				$("#videoDoor8").show();
+				$("footer").hide();
 				$("#videoDoor8")[0].load();
 				$("#videoDoor8")[0].play();
-				$("#bodyImg").hide();
-				$("footer").hide();
 
 				function delayMe(){
 					$("#videoDoor8").hide()
