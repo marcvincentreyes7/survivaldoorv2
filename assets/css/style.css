@@ -388,11 +388,11 @@ body{
         height: 340px;
     }
 
-    /*#input1,
+    #input1,
     #input2{
         width: 80px;
-        height: 20px;
-    }*/
+        height: 13px;
+    }
 
     #q1,
     #q2{
